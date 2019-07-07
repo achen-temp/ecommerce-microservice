@@ -1,0 +1,4 @@
+account-datasource-configuration:
+  url: MySQL-PROD-CONN-URL
+  username: MySQL-PROD-ACCOUNT-ADMIN
+  password: MySQL-PROD-ACCOUNT-PASSWORD

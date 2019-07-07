@@ -1,0 +1,4 @@
+account-datasource-configuration:
+  url: MySQL-QA-CONN-URL
+  username: MySQL-QA-ACCOUNT-ADMIN
+  password: MySQL-QA-ACCOUNT-PASSWORD

@@ -1,0 +1,4 @@
+account-datasource-configuration:
+  url: MySQL-DEV-CONN-URL
+  username: MySQL-DEV-ACCOUNT-ADMIN
+  password: MySQL-DEV-ACCOUNT-PASSWORD
