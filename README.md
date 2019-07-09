@@ -2,6 +2,9 @@
 
 This is a demo project for spring cloud powered microservice.
 
+Spring cloud tools used includes:
+# Eureka Server, Zuul, Config Server, Ribbon, Hystrix, Kafka, Docker
+
 This application includes three main services: 1) Account Service manages customer account balance, order history 2) Product service manages Product inventory information 3) Shopping-portal service manages customer interaction such as check if balance is enough to purchase product and order product and add to order history etc.
 
 Eureka-server service is used to register all services
