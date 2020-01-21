@@ -5,6 +5,7 @@ import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 
@@ -15,7 +16,7 @@ public class DatabaseAspect {
 
     private static final Logger LOG = LoggerFactory.getLogger(DatabaseAspect.class);
 
-    //@Value("${product-datasource-configuration.url: URL NOT AVAILABLE}")
+    @Value("${product-datasource-configuration.url: URL NOT AVAILABLE}")
     private String url;
 
     private String username;
@@ -26,7 +27,7 @@ public class DatabaseAspect {
 
     @Before("execution(* com.ecommerce.product.repository.ProductRepository.*(..))")
     public void connectToDB(){
-        //this.username = env.getProperty("product-datasource-configuration.username");
+        this.username = env.getProperty("product-datasource-configuration.username");
         LOG.info(String.format(">>>>>>>>>Connect to Database: %s as User: %s", this.url, this.username));
     }
 

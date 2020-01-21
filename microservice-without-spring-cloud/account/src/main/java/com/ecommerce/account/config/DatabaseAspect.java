@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Aspect
 @Configuration
-//@ConfigurationProperties(prefix = "account-datasource-configuration")
 public class DatabaseAspect {
 
     private static final Logger LOG = LoggerFactory.getLogger(DatabaseAspect.class);
