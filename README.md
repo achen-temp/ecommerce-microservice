@@ -20,3 +20,8 @@ Ribbon is applied purely for demo purpose - when customer try to get account inf
 Two versions of kafka is used - apache kafka and spring kafka. For the kafka server, this project use the complimentary plan from an online kafka hoster. Apache kafka is implemented using a while(true) loop and the consumer class is running in a separate thread. Spring kafka consumer is implemented using the kafkalistener annotation.
 
 docker image is generated in the account service using boost maven plugin.
+
+
+### fOR TUTORIAL PURPOSE
+download the package without spring cloud and add the spring cloud components stepwisely.
+refer the the package with spring cloud for better understanding and correct implementation.
