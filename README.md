@@ -22,6 +22,6 @@ Two versions of kafka is used - apache kafka and spring kafka. For the kafka ser
 docker image is generated in the account service using boost maven plugin.
 
 
-### fOR TUTORIAL PURPOSE
+### FOR TUTORIAL PURPOSE
 download the package without spring cloud and add the spring cloud components stepwisely.
 refer the the package with spring cloud for better understanding and correct implementation.
